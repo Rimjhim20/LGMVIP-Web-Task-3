@@ -1,0 +1,80 @@
+
+
+.heading{
+    text-align: center;
+    background-color: blueviolet;
+    color: aliceblue;
+    
+}
+.title{
+    background-color: aqua;
+    text-align: center;
+}
+.table{
+    
+    padding-left: -60px;
+    text-align: center;
+    margin-left: 610px;
+    margin-top: -610px;
+    height: 600px;
+    font: bold;
+    border:5px solid black;
+    border-left: none;
+    background-image: url("https://www.photos-public-domain.com/wp-content/uploads/2012/05/pastel-green-paper-texture.jpg");
+}
+.frm{
+    border:black;
+    box-shadow: 1px black;
+    height: 600px;
+    width: 600px;
+    padding-left: -60px;
+    text-align: center;
+    font: bold;
+    display: inline-block;
+    border:5px solid rgb(7, 7, 7);
+    background-image: url("https://st4.depositphotos.com/9966530/i/600/depositphotos_283596972-stock-photo-brown-color-texture-pattern-abstract.jpg");
+}
+.btn{
+    font-size: 20px;
+    color: rgb(15, 14, 14);
+    background-color: rgb(115, 253, 246);
+    border: 2px solid rgb(5, 5, 5);
+    border-radius: 20px;
+}
+.btn1{
+    font-size: 22px;
+    color: rgb(255, 255, 255);
+    background-color: red;
+    border: 2px solid rgb(5, 5, 5);
+    border-radius: 20px;
+    margin: 0px 0px 0px 23px;
+}
+.box{
+    border: 2px solid rgb(23, 2, 71);
+    border-radius: 12px;
+    box-sizing: border-box;
+    height: 30px;
+    width: 20em;
+    margin: 0px 0px 0px 2px;
+}
+.inp
+{
+    color: rgb(0, 0, 0);
+    font: bold;
+    font-size: 20px;
+    outline: none;
+    display: inline-block;
+    margin-top: 2em;
+
+}
+ .tab{
+    color: rgb(17, 10, 85);
+    font: bold;
+    outline: none;
+    display: inline-block;
+    padding: 2px;
+
+ }
+ .thead{
+     font-size: 22px;
+ }

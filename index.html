@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class =" heading ">
+    <h1 >Task 3</h1>
+</div>
+    <div class =" title ">
+    <h1 >Student Enrollment Form </h1>
+</div>
+    <div  class="frm" >     
+    <form method="post" name="sample"  class="inp">
+        Name:  <input class="box "type="text" name="name"> <br><br>
+        Rollno: <input class="box " type="text" name="rollNo"><br> <br>
+        Branch: <input class="box " type="text" name="branch"> <br> <br>
+        Year: <input class="box " type="text" name="year"> <br> <br>
+        Email: <input class="box " type="text" name="email"> <br> <br>
+        Website: <input class="box " type="website" name="website"><br> <br>
+        Application Date: <input class="box " type="date" name="date"> <br> <br>
+        Gender: <input type="radio" name="gender" value="Female"> Female 
+                 <input type="radio" name="gender" value="Male"> Male 
+                 <input type="radio" name="gender" value="Other"> Other <br><br>
+                 
+        <br> <br>
+        <input type="button" name="add" value=" Enroll Student"  class="btn" onclick="addStudent();">
+        <input type="reset" name="reset" value="clear" class="btn1">
+        
+    </form>
+    </div>
+
+
+    <div  class="table">
+        <h1>Enrolled Student</h1>
+        <table id="tbl" border="2" class="tab">
+            <thead class="thead" >
+               
+                <th> Name</th>
+                <th> Roll No</th>
+                <th>  Branch</th>
+                <th>  Year</th>
+                <th> Email</th>
+                <th> Website</th>
+                <th>  Application Date</th>
+                <th> Gender</th>
+            </thead>
+            <tbody>
+            </tbody>
+        </table>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
